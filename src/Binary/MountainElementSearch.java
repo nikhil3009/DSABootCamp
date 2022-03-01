@@ -1,5 +1,4 @@
 package Binary;
-
 public class MountainElementSearch {
     public static void main(String[] args) {
         int[] arr = {0,1,2,4,5,6,7,5,4,2,1};
@@ -33,7 +32,6 @@ public class MountainElementSearch {
         return arr[start];
     }
     static int binarySearchBasic(int[] arr, int target, int start, int end) {
-
         boolean asc = arr[start]<arr[end];
         while(start <= end){
             int mid = start + (end-start)/2;
