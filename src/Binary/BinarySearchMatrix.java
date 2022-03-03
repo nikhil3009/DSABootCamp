@@ -15,7 +15,6 @@ public class BinarySearchMatrix {
         int target = 91;
         System.out.println(Arrays.toString(binarySearchBasic(arr, target)));
     }
-
     static int[] binarySearchBasic(int[][] arr, int target) {
         int rowLen = arr.length;
         int colLen = arr[0].length;
