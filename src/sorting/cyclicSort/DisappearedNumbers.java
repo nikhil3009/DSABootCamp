@@ -8,7 +8,7 @@ public class DisappearedNumbers {
     public static void main(String[] args) {
         int[] arr = {4,1,3,3,2,2,7,8};
         List<Integer> ans = search(arr);
-        System.out.println(Arrays.toString(ans));
+        System.out.println(ans);
     }
     public static List<Integer> search(int[] arr){
         int i =0;
