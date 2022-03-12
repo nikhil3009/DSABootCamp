@@ -6,7 +6,6 @@ public class NumberPalindrome {
             remainder = a%10;
             reversed = (reversed*10) + remainder;
             a=a/10;
-
         }
         if(orifinal==reversed){
             System.out.println("palondrome");
