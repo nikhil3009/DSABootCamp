@@ -1,14 +1,11 @@
 package Recursion;
 
-public class FibonacciNumber {
+public class FiboFormula {
     public static void main(String[] args) {
         int ans = fibonocii(50  );
         System.out.println(ans);
     }
     static int fibonocii(int n){
-        if(n<2){
-            return n;
-        }
-        return fibonocii(n-1)+fibonocii(n-2);
+        return (int)((Math.pow(((1+Math.sqrt(5))/2),n)/ Math.sqrt(5)));
     }
 }
