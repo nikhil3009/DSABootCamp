@@ -2,7 +2,7 @@ package MathProblems;
 
 public class MagicNumbers {
     public static void main(String[] args) {
-        int n = 50;
+        int n = 10;
         int ans = 0;
         int base = 5;
         while(n>0)
