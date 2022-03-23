@@ -2,7 +2,7 @@ package Recursion;
 
 public class OnetoN {
     public static void main(String[] args) {
-        int n=10;
+        int n=100;
         printN(n);
     }
     static void printN(int n){
