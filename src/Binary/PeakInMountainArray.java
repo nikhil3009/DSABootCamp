@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class PeakInMountainArray {
     public static void main(String[] args) {
-        int[] arr = {0,1,2,4,5,6,7,5,4,2,1};
+        int[] arr =  {0,1,2,4,5,6,7,5,4,2,1};
         int ans = peak(arr);
         System.out.println(ans);
     }

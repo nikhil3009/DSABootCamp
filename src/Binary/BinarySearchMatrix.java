@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class BinarySearchMatrix {
     public static void main(String[] args) {
         int[][] arr = {
-                {10, 20, 30, 40},
+                {11, 20, 30, 40},
                 {50, 60, 70, 80},
                 {90, 91, 92, 93},
                 {94, 95, 96, 97}

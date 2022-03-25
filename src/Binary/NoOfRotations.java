@@ -2,7 +2,7 @@ package Binary;
 
 public class NoOfRotations {
     public static void main(String[] args) {
-        int[] arr ={4,5,6,7,1,2};
+        int[] arr ={3,5,6,7,1,2};
         int ans = rotationCount(arr);
         System.out.println(ans);
     }
